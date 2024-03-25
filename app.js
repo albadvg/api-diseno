@@ -75,7 +75,7 @@ app.use((error, req, res, next) => {
 
 /*ESCUCHAR PUERTO*/
 app.listen(PORT, () => {
-    console.log(`servidor corriendo en el puerto ${PORT}`);
+    console.log(`servidor funcionando en el puerto ${PORT}`);
 })
 
 /*just a cute comment for commiting*/
